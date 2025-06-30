@@ -1,0 +1,120 @@
+/* #472C1B - dark brown 
+#7D451B - light brown
+#D19C1D - orange
+#D7F75B - avocado
+#9BE564 - avocado dark
+*/
+body{
+    margin: 0;
+}
+
+.visit{
+    height: 343px;
+    background-image: url("images/lobnya.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#v_h1 {
+    color: #D7F75B;
+    background-color: #472C1B;
+    padding: 3px 12px 5px 12px;
+    border-radius: 10px;
+    margin: 119px 0 11px 0;
+}
+
+#v_h3 {
+    width: 500px;
+    color: #D7F75B;
+    background-color: #7D451B;
+    padding: 3px 12px 5px 12px;
+    border-radius: 10px;    
+}
+
+.activities {
+    background-color: #9BE564; 
+    padding: 39px 0 38px 0; 
+}
+
+#a_h2 {
+    margin-bottom: 54px;
+    text-align: center;
+}
+
+.a_flex_container {
+    display: flex;
+    justify-content: space-around;  
+}
+
+
+.a_card {
+    text-align: center;
+    width: 198px;
+    border: solid 2px #472C1B;
+    border-radius: 10px;
+    background-color: #D7F75B;
+    padding: 10px;
+}
+
+.a_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.a_h3 {
+    color: #472C1B;    
+    margin: 22px 0 17px 0;
+}
+
+.a_p {
+    color: #7D451B; 
+    margin-top: 0;  
+}
+
+.a_card:hover {
+    background-image: url('images/scary_background.jpg');
+}
+
+.a_card:hover .a_p, .a_card:hover .a_h3   {
+    color: white;    
+}
+
+.a_card:hover .a_img {
+    border: 5px solid red;
+}
+
+.guide {
+    padding: 50px 160px;
+}
+
+.g_container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #D19C1D;
+    width: fit-content;
+    padding: 23px 13px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 5px black;
+}
+#g_img{
+    height: 300px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.guide_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    margin: 0 20px;
+}
+
+#g_p {
+    font-style: italic;
+}
